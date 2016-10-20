@@ -1,0 +1,57 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Color Palette */
+.color-1{
+    background: red;
+}
+
+.color-2{
+    background: white;
+}
+
+.color-3{
+    background: blue;
+}
+
+/* Textures or Patterns*/
+.pattern-1{
+    background: url("../img/usaflag.jpg");
+}
+
+.pattern-2{
+    background: url("../img/feathers.jpg");
+}
+
+/* Imagery */
+
+
+/* Icons */
+
+
+/* Navigation */
+a:link, 
+a:visited {
+    background: grey;
+    text-transform: uppercase;
+    color: white;
+}
+
+a:hover{
+    background: red;
+    margin-left: 20px;
+}
+
+a:active{
+    color: white;
+    background: blue;
+    
+}
+/* Typography */
+
+p{
+    font-family: 'Lobster', cursive;
+}
+
+
