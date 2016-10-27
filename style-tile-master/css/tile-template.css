@@ -14,9 +14,8 @@
 .icon-3,
 .icon-4,
 .icon-5 {
-	border: 1px solid #000;
 	display: inline-block;
-	margin: 10px;
+	margin: 5px;
 	height: 100px;
 	width: 100px;
 }
@@ -26,7 +25,6 @@
 .imagery-3 img,
 .imagery-4 img,
 .imagery-5 img {
-	border: 1px solid #000;
 	height: 200px;
 	width: 300px;
 }
@@ -61,7 +59,11 @@ td {
 
 label, input, button {
 	display: block;
-	margin: 1em;
+	margin: 2em;
+    background: #efccbf;
+    border: none;
+    padding: 10px;
+    color: white;
 }
 
 /* Figure */

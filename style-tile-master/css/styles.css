@@ -2,6 +2,11 @@
 /* YOUR STYLES */
 /***************/
 
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 /* Color Palette */
 .color-1{
     background: #bbd19c;
@@ -45,6 +50,9 @@
     background: url("../img/xv.png");
 }
 
+body {
+    background: white;
+}
 
 /* Imagery */
 
@@ -54,9 +62,10 @@
 
 /* Navigation */
 a:link {
+    font-family: 'Lato', sans-serif ;
     text-transform: uppercase;
     color: #bbd19c;
-/*  how do you change the font to be light and not regulr, what is that called?  */
+    font-weight: 300;
 }
 
 a:visited {
@@ -70,18 +79,33 @@ a:hover{
 
 a:active{
     color: #ec7c85;
-    background: white;
-    
+    background: white;   
+}
+
+li{
+    color: #efccbf;
 }
 /* Typography */
 
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    color: #efccbf;
+}
+
+h2{
+    font-family: 'Playfair Display', serif; 
+    font-weight: 700;
+    color: #b7a990;
+}
+
+h3{
+    font-family: 'Playfair Display', serif; 
+    font-weight: 400;  
+    color: #b7a990;
+}
+
 p{
-    font-family: 'Lato', sans-serif;    
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
-/* I want the paragraph to be light not regular */
-
-h1,h2,h3{
-font-family: 'Playfair Display', serif;
-    
-}
-
