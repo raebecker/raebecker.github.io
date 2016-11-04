@@ -2,30 +2,29 @@
 /* YOUR STYLES */
 /***************/
 
-/*FONTS*/
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
 
 /* Color Palette */
 .color-1{
-    background: #bbd19c;
+    background: #8c8b8f;
 }
 
 .color-2{
-    background: #f6f6f1;
+    background: #FDFFFF;
 }
 
 .color-3{
-    background: #b7a990;
+    background: #82C7C0;
 }
 
 .color-4{
-    background: #efccbf;
+    background: #68A1A5;
 }
 
 .color-5{
-    background: #ec7c85;
+    background: #B7A990;
 }
 
 /* Textures or Patterns*/
@@ -50,9 +49,6 @@
     background: url("../img/xv.png");
 }
 
-body {
-    background: white;
-}
 
 /* Imagery */
 
@@ -62,50 +58,49 @@ body {
 
 /* Navigation */
 a:link {
-    font-family: 'Lato', sans-serif ;
     text-transform: uppercase;
-    color: #bbd19c;
-    font-weight: 300;
+    color: #82C7C0;
+/*  how do you change the font to be light and not regulr, what is that called?  */
 }
 
 a:visited {
-    color: #b7a990; 
+    color: #8C8B8F;
 }
 /* When I moved visited they all turned grey but i want the link to only be grey if someone had already been on that page. All the others should still be green.  */
 
 a:hover{
-    color: #efccbf;
+    color: #68A1A5;
 }
 
 a:active{
     color: #ec7c85;
-    background: white;   
-}
-
-li{
-    color: #efccbf;
+    background: white;
+    
 }
 /* Typography */
 
 h1{
-    font-family: 'Pacifico', cursive;
-    font-size: 4em;
-    color: #efccbf;
+    color: #68A1A5;
+    font-family: 'Playfair Display', serif;
 }
 
 h2{
-    font-family: 'Playfair Display', serif; 
+    color: #8C8B8F;
+    font-family: 'Open Sans Condensed', sans-serif; 
     font-weight: 700;
-    color: #b7a990;
+    text-transform: uppercase;
 }
 
 h3{
-    font-family: 'Playfair Display', serif; 
-    font-weight: 400;  
-    color: #b7a990;
+    color: #82C7C0;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 1.3em;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 p{
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans Condensed', sans-serif; 
 }
+
+
