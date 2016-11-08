@@ -1,0 +1,160 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+
+/* Color Palette */
+.color-1{
+    background: #8c8b8f;
+}
+
+.color-2{
+    background: #FDFFFF;
+}
+
+.color-3{
+    background: #82C7C0;
+}
+
+.color-4{
+    background: #68A1A5;
+}
+
+.color-5{
+    background: #B7A990;
+}
+
+/* Textures or Patterns*/
+
+.pattern-1{
+    background: url("../img/tree_pattern.png");
+}
+
+.pattern-2{
+    background: url("../img/wood_texture.png");
+}
+
+.pattern-3{
+    background: url("../img/triangle_background.png");
+}
+
+.pattern-4{
+    background: url("../img/green_texture.png");
+}
+
+.pattern-5{
+    background: url("../img/xv.png");
+}
+
+
+/* Imagery */
+
+.logo{
+    width: 120px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    align-content: center;
+}
+
+
+/* Icons */
+
+
+/* Navigation */
+head {
+    background-color: #F2F1F3;
+    position:relative;
+    height: 150px;
+}
+
+nav {
+    background-color: #F2F1F3;
+    width: inherit;
+    height: 100px;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    width:160px;
+    text-align:center;
+    font-family:'Open Sans Condensed', sans-serif; 
+    color:#fff;
+    cursor:pointer;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+nav ul{
+  position:absolute;
+  width:100%;
+  padding:0;
+  z-index:100;
+}
+nav div{
+    position:absolute;
+    left:0;
+    background: #fff;
+    height:40px;
+    z-index:99;
+    padding: 50px;
+    background-color: #fff;
+    width: 150px;
+}
+.active{
+  color:rgba(130, 199, 192, 1);
+}
+
+li.hover {
+  color:rgba(130, 199, 192, .5);
+}
+
+
+a:link {
+    text-transform: uppercase;
+    color: #82C7C0;
+}
+
+a:visited {
+    color: #8C8B8F;
+}
+
+a:hover{
+    color: #68A1A5;
+}
+
+a:active{
+    color: #B7A990;
+    background: white;
+    
+}
+/* Typography */
+
+h1{
+    color: #68A1A5;
+    font-family: 'Playfair Display', serif;
+}
+
+h2{
+    color: #8C8B8F;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3{
+    color: #82C7C0;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 1.3em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+
