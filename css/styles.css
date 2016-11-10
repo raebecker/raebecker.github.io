@@ -10,47 +10,41 @@
 /* Imagery */
 
 .logo{
-    width: 100px;
-    margin: -25px;
+    width: 7.25em;
+    margin: -1.5625em;
     
 }
-
 .profile-pic{
     margin: 75px 0 0 -10px;
     padding: 0px;
-    width: 1000px;
+    width: 100%;
+    min-width: 100%;
     height: 400px;
     z-index: -1;
    
 }
 
-/* Navigation */
-
-
+/* Navigation */ /*Box Shadow on Nav*/
 nav {
-    background: rgba(241,241,241,1);
+    background: white;
     width: 100%;
     height: auto;
     position: fixed;
     top: 0;
     padding: 2.5em 2.5em 1em 0;
-    box-shadow: 0 0 30px #bbbbbb;
-    
+    box-shadow: 0 0 30px #bbbbbb;  
 }
-
+nav #logo {
+    padding: 2em 0 2em 0;
+}
 nav li{
     background: white;
     display:inline;
     list-style:none;
-    padding: 2em;
+    padding: 2.5em 1em 2em 1em;
 /*    margin -4 fixes the space inbetween each box. */
     margin-right: -4px;
 }
-
-/*When you hover over a page title I wasnt the entire square to change color.
-I think my selctor is inncorrect*/
-
-
 nav ul{
     width:100%;
     padding:0;
@@ -58,32 +52,55 @@ nav ul{
     margin-top: -10px;
 }
 
-/*Box Shadow on Nav*/
 
+
+/*Nav Hover*/
+nav a:link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #82C7C0;
+    padding: 2em;
+    margin-right: -4px;
+}
+nav a:visited {
+    color: #B6A78F;
+}
+nav a:hover{
+    color: white;
+    background-color: #82C7C0;
+    padding: 2.5em 2em 2em 2em;
+    margin-right: -4px;
+}
+nav a#logo:hover {
+    background: white;
+}
+nav a:active{
+    color: #67A1A5;
+    background: white;
+}
+
+/*Link hover*/
 a:link {
     text-transform: uppercase;
     text-decoration: none;
     color: #82C7C0;
-    
+    padding: 2em;
+    margin-right: -4px;
 }
-
 a:visited {
     color: #B6A78F;
 }
-
 a:hover{
     color: white;
     background-color: #82C7C0;
     padding: 2em;
     margin-right: -4px;
-/* How do you make them stay still. When I hover the navigation moves and i just want it to highlight the square. I also DONT want it to highlight the logo. I want that link to stay still.   */
 }
-
 a:active{
     color: #67A1A5;
     background: white;
-    
 }
+
 /* Typography */
 
 h1{
@@ -91,7 +108,6 @@ h1{
     font-family: 'Playfair Display', serif;
     font-size: 2em;
 }
-
 h2{
     color: #82C7C0;
     font-family: 'Open Sans Condensed', sans-serif; 
@@ -100,7 +116,6 @@ h2{
     margin: 0;
     font-size: 1.5em;
 }
-
 h3{
     color: #82C7C0;
     font-family: 'Open Sans Condensed', sans-serif; 
@@ -108,18 +123,15 @@ h3{
     font-weight: 300;
     text-transform: none;
 }
-
 p{
     font-family: 'Open Sans Condensed', sans-serif; 
 }
-
 blockquote{
     font-family: 'Playfair Display', serif;
     font-size: 1.2em;
     color: #B7AA90;
     line-height:1.6em;
 }
-
 li{
     font-family: 'Open Sans Condensed', sans-serif; 
     margin-bottom: .3em;
@@ -129,40 +141,36 @@ li{
 
 
 /*Body*/
-
-body{
-    min-width: 18em;
-    
+main{
+    width: 80%;
+    margin: 0 auto;
+    background: orange;
+   
 }
 
+/*Eventually the screen stop collapsing*/
+body{
+    min-width: 18em; 
+}
 article{
     width: 75%;
     margin: 2em;
     margin-top: 1em;
 }
-
 div{
     display: inline-block;
     vertical-align: top;
     width: 40%;
     min-width: 18em;
     padding: 0 1em 1em 1em;
-    margin: 0 0 0 1em;
-        
+    margin: 0 0 0 1em;   
 }
-
-/*
-.main{
-    display: inline-block;
-    max-width: 70%;
-}
-*/
 
 .left-half{
     background-color: white;
     
 }
-
 .right-half{
-   background-color: white;
+    background-color: white;
+}
 
