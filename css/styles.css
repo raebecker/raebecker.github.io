@@ -15,12 +15,22 @@
     
 }
 
+.profile-pic{
+    margin: 75px 0 0 -10px;
+    padding: 0px;
+    width: 1000px;
+    height: 400px;
+    z-index: -1;
+   
+}
+
 /* Navigation */
 
 
 nav {
     background: rgba(241,241,241,1);
     width: 100%;
+    height: auto;
     position: fixed;
     top: 0;
     padding: 2.5em 2.5em 1em 0;
@@ -128,7 +138,7 @@ body{
 article{
     width: 75%;
     margin: 2em;
-    margin-top: 8em;
+    margin-top: 1em;
 }
 
 div{
@@ -138,10 +148,15 @@ div{
     min-width: 18em;
     padding: 0 1em 1em 1em;
     margin: 0 0 0 1em;
-    
-    
-    
+        
 }
+
+/*
+.main{
+    display: inline-block;
+    max-width: 70%;
+}
+*/
 
 .left-half{
     background-color: white;
@@ -150,13 +165,4 @@ div{
 
 .right-half{
    background-color: white;
-}
 
-.left-half-resume{
-    background-color: white;
-    
-}
-
-.right-half-resume{
-   background-color: white;
-}
