@@ -7,7 +7,16 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
 
 
+*{
+    box-sizing: border-box;
+}
+
 /* Imagery */
+
+img{
+    max-width: 100%;
+    
+}
 
 .logo{
     width: 7.25em;
@@ -19,7 +28,7 @@
     width: 100%;
     min-width: 100%;
     z-index: -1;
-   
+    text-align: center;
 }
 
 /* Navigation */ /*Box Shadow on Nav*/
@@ -31,6 +40,7 @@ nav {
     top: 0;
     padding: 2.5em 2.5em 1em 0;
     box-shadow: 0 0 30px #bbbbbb;  
+    text-align: center;
 }
 nav #logo {
     padding: 2em 0 2em 0;
@@ -105,6 +115,7 @@ h1{
     color: #68A1A5;
     font-family: 'Playfair Display', serif;
     font-size: 2em;
+    line-height: 1.2;
 }
 h2{
     color: #82C7C0;
@@ -123,6 +134,7 @@ h3{
 }
 p{
     font-family: 'Open Sans Condensed', sans-serif; 
+    margin: 1em;
 }
 blockquote{
     font-family: 'Playfair Display', serif;
@@ -140,34 +152,28 @@ li{
 
 /*Body*/
 main{
-    width: 80%;
-    margin: 0 auto;
-   
+    width: 70%;
+    margin: auto;
 }
-
 /*Eventually the screen stop collapsing*/
+
 body{
     min-width: 18em; 
+    line-height: 1.5;
 }
-article{
-    width: 75%;
-    margin: 2em;
-    margin-top: 1em;
-}
+
 div{
     display: inline-block;
     vertical-align: top;
-    width: 40%;
+    width: 47%;
     min-width: 18em;
-    padding: 0 1em 1em 1em;
-    margin: 0 0 0 1em;   
 }
-
 .left-half{
-    background-color: white;
+    max-width: 550px;
     
 }
 .right-half{
-    background-color: white;
+    max-width: 550px;
+    margin-left: 20px;
 }
 
