@@ -17,7 +17,6 @@ img{
     max-width: 100%;
     
 }
-
 .logo{
     width: 7.25em;
     margin: -1.5625em;
@@ -156,18 +155,15 @@ main{
     margin: auto;
 }
 /*Eventually the screen stop collapsing*/
-
 body{
     min-width: 18em; 
     line-height: 1.5;
 }
-
 article {
     margin: auto;
     width: 80%;
     text-align: center;
 }
-
 div{
     display: inline-block;
     vertical-align: top;
@@ -180,5 +176,58 @@ div{
 }
 .right-half{
     max-width: 550px;
+}
+
+
+/*Home page*/
+.homepage{
+    
+}
+
+/*About page*/
+.about{
+    
+}
+
+/*portfolio page*/
+.homepage{
+    
+}
+
+/*Contact page*/
+.homepage{
+    
+}
+
+
+/*Media Queries*/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. */
+	body {
+       background: red;
+	}
+	
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. */
+  body {
+       background: green;
+  }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. */
+  body {
+       background: blue;
+  }
+
 }
 
