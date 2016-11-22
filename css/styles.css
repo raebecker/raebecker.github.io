@@ -152,7 +152,6 @@ li{
 
 /*Body*/
 main{
-    width: 70%;
     margin: auto;
 }
 /*Eventually the screen stop collapsing*/
@@ -162,6 +161,11 @@ body{
     line-height: 1.5;
 }
 
+article {
+    background: yellow;
+    margin: auto;
+    width: 80%;
+}
 div{
     display: inline-block;
     vertical-align: top;
