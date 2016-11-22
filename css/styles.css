@@ -29,6 +29,7 @@ img{
     min-width: 100%;
     z-index: -1;
     text-align: center;
+    margin: 0;
 }
 
 /* Navigation */ /*Box Shadow on Nav*/
@@ -164,12 +165,14 @@ body{
 article {
     margin: auto;
     width: 80%;
+    text-align: center;
 }
+
 div{
     display: inline-block;
     vertical-align: top;
-    width: 47%;
-    min-width: 18em;
+    min-width: 200px;
+    margin-left: 20px;
 }
 .left-half{
     max-width: 550px;
@@ -177,6 +180,5 @@ div{
 }
 .right-half{
     max-width: 550px;
-    margin-left: 20px;
 }
 
