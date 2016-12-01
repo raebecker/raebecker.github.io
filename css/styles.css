@@ -235,8 +235,19 @@ div{
             margin: .1em;
         }
 
-        form h1, h2{
+input .name{
+    display: none;
+    padding: 3em;
+    
+}
+        form h1{
             color: white;
+        }
+
+        form h2{
+            color: white;
+            border-bottom: 1px solid rgba(0,0,0, 0.3);
+            padding: .2em 0;
 
         }
         /* Score: 0,0,1,1  */
