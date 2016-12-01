@@ -28,20 +28,24 @@
 <main>
         
     <article>
+        
          <!-- Contact Form -->
         <form method="POST" action="http://formspree.io/rachaelbecker@live.com">
+          <h1>Contact Me</h1>
+        <h2>Fill out the form below to learn more!</h2>
+        
         <!-- Old way to do forms -->
           <label for="name">Name</label>
-          <input type="input" name="name" />
+          <input type="input" name="name" placeholder="John Smith" />
 
           <label for="email">Email</label>
-          <input type="input" name="email" />
-
-          <label for="phone">Phone</label>
-          <input type="input" name="phone" />
+          <input type="input" name="email" placeholder="john.smith@gmail.com" />
+          
+          <label for="subject">Subject</label>
+          <input type="input" name="subject" placeholder="What is this email about?" />
 
           <label for="message">Message</label>
-          <textarea name="message"></textarea>
+          <textarea name="message" placeholder="Comments, Questions, or Concerns? Let me know here. "></textarea>
 
           <input type="submit" value="Send" />
 
