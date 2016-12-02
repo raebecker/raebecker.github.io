@@ -216,7 +216,7 @@ div.contact-info{
     float: right;
     text-align: right;
     color: white;
-    margin-right: 4em;
+    margin-right: 10.5em;
 }
 
 #icon{
@@ -250,24 +250,26 @@ h3.color{
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-            align-items: center;
             background-color: rgba(255,255,255,.8);
-            margin: auto;
-            padding: 2em;
+            padding: 2em 4em 4em 4em;
+            width: 80%;
             max-width: 700px;
-            min-width: 300px;
+            min-width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px #bbbbbb;  
 
         }
  
         input, 
         textarea{
             display:flex;
-            color: #68A1A5;
+            color: #82C7C0;
             font-family: 'Open Sans Condensed', sans-serif; 
             font-size: 1.3em;
             width: 12em;
             height: 3em;
             margin: .5em;
+            color: white;
         }
 
         label{
@@ -292,18 +294,21 @@ h3.color{
         }
 /*         Score: 0,0,1,1  */
         input[type=submit]{
-            background: rgba(182, 167, 143, .3);
+            background: rgba(182, 167, 143, .5);
             border: none;
             padding:10px 20px;
             border-radius: 10px;
             color:white;
         }
 
-        input:focus, 
+        input:focus,
         textarea:focus{
-          background: rgba(182, 167, 143, 1);
+          background:#68A1A5;
           transition: background .5s;
+            color: white;
+
         }
+
 
 ::-webkit-input-placeholder {
    color: #B6A78F;
@@ -355,6 +360,7 @@ contact.html{
     div.contact-info{
         text-align: center;
         float: center;
+        margin: auto;
     }
 	
 }
@@ -369,6 +375,7 @@ contact.html{
      div.contact-info{
         text-align: right;
         float: right;
+         margin-right: 8em;
     }
 
 }
@@ -384,6 +391,7 @@ contact.html{
     div.contact-info{
         text-align: right;
         float: right;
+        margin-right: 10.5em;
     }
 
 }
