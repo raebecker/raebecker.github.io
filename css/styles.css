@@ -173,7 +173,6 @@ div{
     display: inline-block;
     vertical-align: top;
     min-width: 200px;
-    margin-left: 20px;
 }
 .left-half{
     max-width: 550px;
@@ -201,7 +200,28 @@ div{
 
 /*Contact page*/
 .contact{
+    background: url(/img/contact_cover.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     
+}
+
+#social-media{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social-media a:hover{
+  transform: scale(1.5);
+      background: none;
+    color
+}
+
+.contact-info{
+   display: flex;
 }
 
 /*Contact Form*/
@@ -213,6 +233,8 @@ div{
             margin: auto;
             width: 50%;
             padding: 2em;
+            max-width: 700px;
+            min-width: 300px;
         }
  
         input, 
@@ -245,7 +267,7 @@ div{
             padding: .2em 0;
 
         }
-        /* Score: 0,0,1,1  */
+         Score: 0,0,1,1  
         input[type=submit]{
           background: rebeccapurple;
           border: none;
@@ -261,6 +283,17 @@ div{
           transition: background .5s;
 
         }
+/*cover Photo*/
+contact.html{
+  background:url(/img/contact_cover.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+    margin-top: 96px;
+}
+
 
 
 /*Media Queries*/
@@ -269,7 +302,7 @@ div{
 
   /* Diagnostic Styling. */
 	body {
-       background: red;
+/*       background: red;*/
 	}
 	
 }
@@ -279,7 +312,7 @@ div{
 
   /* Diagnostic Styling. */
   body {
-       background: green;
+/*       background: green;*/
   }
 
 }
@@ -289,7 +322,7 @@ div{
   
   /* Diagnostic Styling. */
   body {
-       background: blue;
+/*       background: blue;*/
   }
 
 }
