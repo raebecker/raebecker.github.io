@@ -208,7 +208,6 @@ div{
     
 }
 
-<<<<<<< HEAD
 div.contact-info{
     display: block;
     width: 35%;
@@ -249,19 +248,11 @@ h3.color{
 /*Contact Form*/
         form{
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             flex-wrap: wrap;
             align-items: center;
             background-color: rgba(255,255,255,.8);
-/* Teal         background-color: rgba(130,199,192,.8);*/
-/* Tan           background-color: rgba(182,167,143,.9);*/
             margin: auto;
-
-            width: 70%;
-            padding: 3em 5em 5em 5em;
-            max-width: 800px;
-            min-width: 400px;
-            width: 50%;
             padding: 2em;
             max-width: 700px;
             min-width: 300px;
@@ -270,8 +261,8 @@ h3.color{
  
         input, 
         textarea{
-            display: flex;
-            color: #82C7C0;
+            display:flex;
+            color: #68A1A5;
             font-family: 'Open Sans Condensed', sans-serif; 
             font-size: 1.3em;
             width: 12em;
@@ -281,11 +272,12 @@ h3.color{
 
         label{
             display: flex;
+            justify-content: flex-end;
+            align-items: center;
             color: #82C7C0;
             font-family: 'Open Sans Condensed', sans-serif; 
             font-size: 1.3em;
-            height: auto;
-            margin: .1em;
+
         }
 
         form h1{
@@ -298,22 +290,46 @@ h3.color{
             padding: .2em 0;
 
         }
-         Score: 0,0,1,1  
+/*         Score: 0,0,1,1  */
         input[type=submit]{
-          background: rebeccapurple;
-          border: none;
-          padding:10px 20px;
-          border-radius: 10px;
-          color:white;
-
+            background: rgba(182, 167, 143, .3);
+            border: none;
+            padding:10px 20px;
+            border-radius: 10px;
+            color:white;
         }
 
         input:focus, 
-        textare:focus{
-          background: 82C7C0;
+        textarea:focus{
+          background: rgba(182, 167, 143, 1);
           transition: background .5s;
-
         }
+
+::-webkit-input-placeholder {
+   color: #B6A78F;
+}
+
+/*attempt at rows and columns*/
+.row{
+  padding: 5px;
+}
+
+.col{
+  padding: 5px;
+}
+
+
+
+/*Flexbox Styling  */
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col{
+  flex: 1 200px;
+  
+}
 /*cover Photo*/
 contact.html{
   background:url(/img/contact_cover.jpg) no-repeat center center fixed; 
