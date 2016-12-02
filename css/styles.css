@@ -283,11 +283,13 @@ h3.color{
         }
 
         form h1{
-/*            color: white;*/
+            font-size: 3em;
+            margin-bottom: 0;
+
         }
 
         form h2{
-/*            color: white;*/
+
             border-bottom: 1px solid rgba(0,0,0, 0.3);
             padding: .2em 0;
 
