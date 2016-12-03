@@ -188,6 +188,51 @@ div{
     
 }
 
+h1.title{
+    font-size: 10em;
+    margin: 2em auto 0 auto;
+    animation-duration: 2s;
+    animation-name: fadeInUp;
+}
+
+h3.title{
+    font-size: 2em;
+    margin: .5em auto 0 auto;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: fadeInUp;
+}
+.splash{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%
+    max-width: 60em;
+    min-width: 18em;
+}
+
+/*animation*/
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
 /*About page*/
 .about{
     
@@ -239,10 +284,6 @@ h3.color{
     padding-bottom: .5em;
     text-shadow: 2px 2px 15px #C4C4C4; 
 }
-
-
-
-
 
 
 /*Contact Form*/
@@ -319,9 +360,6 @@ input.col[type=submit]:hover{
     background:rgba(182, 167, 143, 1);
 }
 
-
-
-
 ::-webkit-input-placeholder {
    color: #B6A78F;
 }
@@ -334,8 +372,6 @@ input.col[type=submit]:hover{
 .col{
   padding: 5px;
 }
-
-
 
 /*Flexbox Styling  */
 .row {
