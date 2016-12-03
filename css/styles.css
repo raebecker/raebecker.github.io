@@ -185,22 +185,25 @@ div{
 
 /*Home page*/
 .homepage{
-    
+   background: #82C7C0 ;
 }
 
 h1.title{
-    font-size: 10em;
-    margin: 2em auto 0 auto;
-    animation-duration: 2s;
+    font-size: 13em;
+    margin: 1.5em auto 0 auto;
+    animation-duration: 3s;
     animation-name: fadeInUp;
+    color: white;
 }
 
 h3.title{
-    font-size: 2em;
+    font-size: 1.5em;
     margin: .5em auto 0 auto;
     text-align: center;
     animation-duration: 3s;
     animation-name: fadeInUp;
+    color: white;
+    text-transform: uppercase;
 }
 .splash{
     display: flex;
@@ -211,6 +214,23 @@ h3.title{
     width: 100%
     max-width: 60em;
     min-width: 18em;
+}
+
+a.work-link{
+    font-size: 1em;
+    color: white;
+    border: 2px solid white;
+    margin: 2em auto;
+    animation-duration: 3s;
+    animation-name: fadeInUp;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+a.work-link:hover{
+    background-color: #68A1A5;
+    
 }
 
 /*animation*/
