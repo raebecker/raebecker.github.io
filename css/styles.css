@@ -320,17 +320,19 @@ h3.color{
  
         input, 
         textarea{
-            display:flex;
-            color: #82C7C0;
             font-family: 'Open Sans Condensed', sans-serif; 
+            color: #82C7C0;
             font-size: 1.3em;
-            width: 12em;
+            width: 24em;
             height: 3em;
             margin: .5em;
+            outline: none;
+            border: none;
+	        border-bottom: 3px solid rgba(0,0,0,0.05);
         }
+
         label{
             display: flex;
-            justify-content: flex-end;
             align-items: center;
             color: #82C7C0;
             font-family: 'Open Sans Condensed', sans-serif; 
@@ -343,33 +345,38 @@ h3.color{
 
         }
         form h2{
-
             border-bottom: 1px solid rgba(0,0,0, 0.3);
-            padding: .2em 0;
+            padding: .2em 0 .5em 0;
 
         }
         input[type=submit]{
-            border: none;
-            padding:10px 30px;
-            border-radius: 20px;
-            color: #68A1A5;
+            color: #82C7C0;
+            max-width: 6em;
+            height: 4em;
+            font-family:  'Open Sans Condensed', sans-serif; 
+            font-size: 1.5em;
+
 /*  Send should be centered but padding auto doesnt work. how else should i center the text. 
             WHEN YOU CLICK OFF TYPE IS WHITE< CANT SEE IT*/
         }
         input:focus,
         textarea:focus{
-            background:white;
             transition: background .5s;
             color: #68A1A5;
+            border-bottom: 5px solid #68A1A5;
+            
 /*  color of text when typing*/
 }
 
 input.col[type=submit]{
-    background:rgba(182, 167, 143, .7);
+    background-color:rgba(255,255,255,.5);
+    border: 2px solid #82C7C0;
 }
 
 input.col[type=submit]:hover{
-    background:rgba(182, 167, 143, 1);
+    background:#68A1A5;
+    color: white;
+    border: white;
 }
 
 ::-webkit-input-placeholder {
