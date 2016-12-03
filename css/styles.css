@@ -149,8 +149,10 @@ li{
 }
 
 
-
-/*Body*/
+/*About*/
+.about{
+    
+}
 main{
     margin: auto;
 }
@@ -182,12 +184,25 @@ div{
     max-width: 550px;
 }
 
+a.body-link{
+    font-family: 'Open Sans Condensed', sans-serif; 
+    color: black;
+    padding: 0;
+}
+
+a.body-link:hover{
+    font-family: 'Open Sans Condensed', sans-serif; 
+    color: #68A1A5;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
 
 /*Home page*/
 .homepage{
    background: #82C7C0 ;
 }
-
 h1.title{
     font-size: 13em;
     margin: 1.5em auto 0 auto;
@@ -195,7 +210,6 @@ h1.title{
     animation-name: fadeInUp;
     color: white;
 }
-
 h3.title{
     font-size: 1.5em;
     margin: .5em auto 0 auto;
@@ -203,19 +217,15 @@ h3.title{
     animation-duration: 3s;
     animation-name: fadeInUp;
     color: white;
-    text-transform: uppercase;
 }
 .splash{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
     align-content: center;
     width: 100%
     max-width: 60em;
     min-width: 18em;
 }
-
 a.work-link{
     font-size: 1em;
     color: white;
@@ -227,12 +237,10 @@ a.work-link{
     font-size: 1.5em;
     padding: 1em;
 }
-
 a.work-link:hover{
     background-color: #68A1A5;
     
 }
-
 /*animation*/
 @keyframes fadeInUp {
   from {
@@ -247,16 +255,11 @@ a.work-link:hover{
     transform: none;
   }
 }
-
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
-/*About page*/
-.about{
-    
-}
 
 /*portfolio page*/
 .homepage{
@@ -272,7 +275,6 @@ a.work-link:hover{
   background-size: cover;
     
 }
-
 div.contact-info{
     display: block;
     width: 35%;
@@ -283,19 +285,15 @@ div.contact-info{
     color: white;
     margin-right: 10.5em;
 }
-
 #icon{
-    margin-top: .5em;
     padding: .8em;
 }
-
 h1.color{
     color: white;
     font-size: 4em;
     margin-bottom: 0;
     text-shadow: 2px 2px 15px #C4C4C4; 
 }
-
 h3.color{
     color: white;
     text-transform: uppercase;
@@ -304,7 +302,6 @@ h3.color{
     padding-bottom: .5em;
     text-shadow: 2px 2px 15px #C4C4C4; 
 }
-
 
 /*Contact Form*/
         form{
@@ -331,7 +328,6 @@ h3.color{
             height: 3em;
             margin: .5em;
         }
-
         label{
             display: flex;
             justify-content: flex-end;
@@ -341,20 +337,17 @@ h3.color{
             font-size: 1.3em;
 
         }
-
         form h1{
             font-size: 3em;
             margin-bottom: 0;
 
         }
-
         form h2{
 
             border-bottom: 1px solid rgba(0,0,0, 0.3);
             padding: .2em 0;
 
         }
-
         input[type=submit]{
             border: none;
             padding:10px 30px;
@@ -363,7 +356,6 @@ h3.color{
 /*  Send should be centered but padding auto doesnt work. how else should i center the text. 
             WHEN YOU CLICK OFF TYPE IS WHITE< CANT SEE IT*/
         }
-
         input:focus,
         textarea:focus{
             background:white;
@@ -388,7 +380,6 @@ input.col[type=submit]:hover{
 .row{
   padding: 5px;
 }
-
 .col{
   padding: 5px;
 }
@@ -398,11 +389,11 @@ input.col[type=submit]:hover{
   display: flex;
   justify-content: center;
 }
-
 .col{
   flex: 1 200px;
   
 }
+
 /*cover Photo*/
 contact.html{
   background:url(/img/contact_cover.jpg) no-repeat center center fixed; 
@@ -413,7 +404,6 @@ contact.html{
     
     margin-top: 96px;
 }
-
 
 
 /*Media Queries*/
