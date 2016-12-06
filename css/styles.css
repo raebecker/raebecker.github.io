@@ -29,6 +29,7 @@ img{
     z-index: -1;
     text-align: center;
     margin: 0;
+    margin-top: -2em;
 }
 
 /* Navigation */ /*Box Shadow on Nav*/
@@ -156,6 +157,8 @@ li{
 }
 main{
     margin: auto;
+    margin-top: 8em;
+    
 }
 /*Eventually the screen stop collapsing*/
 body{
@@ -184,13 +187,11 @@ div{
     max-width: 47%;
     width: 47%;
 }
-
 a.body-link{
     font-family: 'Open Sans Condensed', sans-serif; 
     color: black;
     padding: 0;
 }
-
 a.body-link:hover{
     font-family: 'Open Sans Condensed', sans-serif; 
     color: #68A1A5;
@@ -264,8 +265,66 @@ a.work-link:hover{
 
 /*portfolio page*/
 .homepage{
-    
+/*     margin: 0; background: #fff;*/
 }
+
+
+
+/*CSS from Codepen example*/
+.thumbnail {
+  max-width: 40%;
+}
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+/*END OF CODEPEN CODE*/
+/*fixes hover over thumbnail */
+a.portfolio:hover{
+    background: none;
+}
+/*fixes hover over img after clicked */
+a.lightbox:hover{
+    background: rgba(255,255,255,.8);
+}
+
+
+
+
+
+
+
+
+
 
 /*Contact page*/
 .contact{
@@ -509,7 +568,7 @@ contact.html{
         padding: 2.5em 2.5em 1em 0;
     }
     
-article {
+    article {
     margin: auto;
     margin-top: 8em;
     width: 70%;
