@@ -309,13 +309,13 @@ h3.color{
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-            background-color: rgba(255,255,255,.8);
+            background-color: rgba(255,255,255,.7);
             padding: 2em 4em 4em 4em;
             width: 80%;
             max-width: 700px;
             min-width: 400px;
             margin: auto;
-            box-shadow: 0 0 10px #bbbbbb;  
+/*            box-shadow: 0 0 10px #bbbbbb;  */
 
         }
  
@@ -343,6 +343,7 @@ h3.color{
         form h1{
             font-size: 3em;
             margin-bottom: 0;
+            text-align: center;
 
         }
         form h2{
@@ -425,9 +426,27 @@ contact.html{
     
     div.contact-info{
         text-align: center;
-        float: center;
-        margin: auto;
+
     }
+    
+    nav li{
+        display:block;
+        padding: 1em 0 0 0;
+    /*    margin -4 fixes the space inbetween each box. */
+        margin-right: -4px;
+}
+        nav #logo {
+        display: inline;
+        padding: 2em 0 2em 0;
+}
+    nav{
+        position: relative;
+        padding: 2.5em 0 1em 0;
+    }
+      article {
+    margin-top: 3em;
+}
+    
 	
 }
 
@@ -443,9 +462,26 @@ contact.html{
         float: right;
          margin-right: 8em;
     }
-
+    
+    nav li{
+        background: white;
+        display:inline;
+        list-style:none;
+        padding: 2.5em 1em 2em 1em;
+    /*    margin -4 fixes the space inbetween each box. */
+        margin-right: -4px;
 }
-
+    
+     nav{
+        position: fixed;
+        padding: 2.5em 2.5em 1em 0;
+    }
+    
+    article {
+    margin: auto;
+    margin-top: 8em;
+    width: 70%;
+}
 /* Desktop: 1280px = 80em */
 @media screen and (min-width: 80em) { 
   
@@ -459,6 +495,23 @@ contact.html{
         float: right;
         margin-right: 10.5em;
     }
-
+    
+    nav li{
+        background: white;
+        display:inline;
+        list-style:none;
+        padding: 1em 1em 2em 1em;
+    /*    margin -4 fixes the space inbetween each box. */
+        margin-right: -4px;
+}
+     nav{
+        position: fixed;
+        padding: 2.5em 2.5em 1em 0;
+    }
+    
+article {
+    margin: auto;
+    margin-top: 8em;
+    width: 70%;
 }
 
