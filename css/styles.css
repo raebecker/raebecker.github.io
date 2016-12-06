@@ -114,7 +114,7 @@ a:active{
 h1{
     color: #68A1A5;
     font-family: 'Playfair Display', serif;
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1.2;
 }
 h2{
@@ -138,9 +138,10 @@ p{
 }
 blockquote{
     font-family: 'Playfair Display', serif;
-    font-size: 1.2em;
+    font-size: 2em;
     color: #B7AA90;
     line-height:1.6em;
+    text-align: center;
 }
 li{
     font-family: 'Open Sans Condensed', sans-serif; 
@@ -160,12 +161,13 @@ main{
 body{
     min-width: 18em; 
     line-height: 1.5;
+    letter-spacing: .4px;
 }
 article {
     margin: auto;
     margin-top: 8em;
-    width: 80%;
-    text-align: center;
+    width: 70%;
+    
 }
 /*Atricle on all pages is 8em, except this page becuse of picture at top. */
 article.background{
@@ -175,13 +177,12 @@ div{
     display: inline-block;
     vertical-align: top;
     min-width: 200px;
+    margin-right: 2%;
 }
-.left-half{
-    max-width: 550px;
-    
-}
+.left-half, 
 .right-half{
-    max-width: 550px;
+    max-width: 47%;
+    width: 47%;
 }
 
 a.body-link{
