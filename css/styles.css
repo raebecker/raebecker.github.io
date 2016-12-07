@@ -513,28 +513,28 @@ contact.html{
 /*       background: red;*/
 	}
     
-    div.contact-info{
-        text-align: center;
-
-    }
+div.contact-info{
+    text-align: center;
+}
     
-    nav li{
-        display:block;
-        padding: 1em 0 0 0;
-    /*    margin -4 fixes the space inbetween each box. */
-        margin-right: -4px;
+/*CORRECT CODE FOR MOBIL BUT IT IS ALSO CHANGING THE BIGGER VERSION*/
+/*
+nav li{
+    padding: 1em 0 1em 0;
 }
-        nav #logo {
-        display: inline;
-        padding: 2em 0 2em 0;
+nav #logo {
+    display: block;
 }
-    nav{
-        position: relative;
-        padding: 2.5em 0 1em 0;
-    }
-      article {
+nav{
+    padding: .5em 0;
+}
+*/
+article {
     margin-top: 3em;
-}
+ }
+main{
+        margin-top: 8em;
+    }
     
 	
 }
@@ -550,20 +550,6 @@ contact.html{
         text-align: right;
         float: right;
          margin-right: 8em;
-    }
-    
-    nav li{
-        background: white;
-        display:inline;
-        list-style:none;
-        padding: 2.5em 1em 2em 1em;
-    /*    margin -4 fixes the space inbetween each box. */
-        margin-right: -4px;
-}
-    
-     nav{
-        position: fixed;
-        padding: 2.5em 2.5em 1em 0;
     }
     
     article {
@@ -583,19 +569,6 @@ contact.html{
         text-align: right;
         float: right;
         margin-right: 10.5em;
-    }
-    
-    nav li{
-        background: white;
-        display:inline;
-        list-style:none;
-        padding: 1em 1em 2em 1em;
-    /*    margin -4 fixes the space inbetween each box. */
-        margin-right: -4px;
-}
-     nav{
-        position: fixed;
-        padding: 2.5em 2.5em 1em 0;
     }
     
     article {
