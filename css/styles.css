@@ -494,14 +494,11 @@ div.footer{
 }
 a#icon{
     padding: .8em;
-    transform: scale(2) rotate(45deg) translate(0,0);
 }
 
 a#icon:hover{
     background: none;
-    transform: scale(1) rotate(0deg)translate(25px,25px);
-    transition: transform 1s;
-    
+    cursor: pointer;
 }
 
 
@@ -512,9 +509,11 @@ a#icon:hover{
     and (max-width:42em){ 
 
   /* Diagnostic Styling. */
+/*
 	body {
        background: lightgrey;
 	}
+*/
     
     nav ul{
         margin: -20px 0 3px 0;
