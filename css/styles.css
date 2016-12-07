@@ -268,7 +268,16 @@ a.work-link:hover{
 /*     margin: 0; background: #fff;*/
 }
 
+header.portfolio{
+    width: 80%;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
 
+a.portfolio{
+    padding: 2px;
+}
 
 /*CSS from Codepen example*/
 .thumbnail {
@@ -297,6 +306,7 @@ a.work-link:hover{
 	max-width: 90%;
 	max-height: 80%;
 	margin-top: 2%;
+    box-shadow: 0 0 30px #bbbbbb;  
 }
 
 .lightbox:target {
