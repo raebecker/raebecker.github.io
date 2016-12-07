@@ -142,8 +142,16 @@ blockquote{
     font-size: 2em;
     color: #B7AA90;
     line-height:1.6em;
+    
+    border-bottom: 2px solid #B7AA90;
+    border-top: 2px solid #B7AA90;
+    padding: 1em;
+    width: 100%;
     text-align: center;
+    margin: 1em 0;
+ 
 }
+
 li{
     font-family: 'Open Sans Condensed', sans-serif; 
     margin-bottom: .3em;
@@ -180,7 +188,7 @@ div{
     display: inline-block;
     vertical-align: top;
     min-width: 200px;
-    margin-right: 2%;
+/*    margin-right: 2%;*/
 }
 .left-half, 
 .right-half{
@@ -278,6 +286,18 @@ header.portfolio{
 a.portfolio{
     padding: 2px;
 }
+
+h1.portfolio{
+    margin: auto;
+    padding: .5em 0 0 0;
+}
+
+/*
+div .portfolio{
+    border-bottom: 2px solid #B7AA90;
+    border-top: 2px solid #B7AA90;
+}
+*/
 
 /*CSS from Codepen example*/
 .thumbnail {
