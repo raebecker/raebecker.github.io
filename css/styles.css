@@ -522,7 +522,7 @@ a#icon:hover{
         padding: 1.5em;
     }
     nav{
-        padding: .5em 0;
+        padding: .8em 0;
     }
         
 /* HOME PAGE STYLING */
@@ -553,7 +553,14 @@ a#icon:hover{
         }
         h2{
             font-size: 1.5em;
-            padding: 1em 0 0 0;
+            padding-top: .8em;
+        }
+        
+        h3{
+            font-size: 1.5em;
+            margin: 5px 0 5px 0;
+            text-align: center;
+            color: #B6A78F;
         }
         .left-half, 
         .right-half{
