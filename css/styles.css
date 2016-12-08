@@ -439,15 +439,6 @@ input.col[type=submit]:hover{
 }
 
 
-/*attempt at rows and columns*/
-.row{
-  padding: 5px;
-}
-.col{
-  padding: 5px;
-}
-
-
 /*Flexbox Styling  */
 .row {
     display: flex;
@@ -455,7 +446,7 @@ input.col[type=submit]:hover{
     justify-content: center;
 }
 .col{
-  flex: 1 200px;
+  flex: 1 1 200px;
     align-content: center;
     width: 40em;
     max-width: 40em;
@@ -463,6 +454,7 @@ input.col[type=submit]:hover{
 
 .small{
     min-width: 21.8em;
+    max-width: 300px;
 }
 
 .min{
