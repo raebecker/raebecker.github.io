@@ -61,8 +61,6 @@ nav ul{
     margin-top: -10px;
 }
 
-
-
 /*Nav Hover*/
 nav a:link {
     text-transform: uppercase;
@@ -151,7 +149,6 @@ blockquote{
     margin: 1em 0;
  
 }
-
 li{
     font-family: 'Open Sans Condensed', sans-serif; 
     margin-bottom: .3em;
@@ -347,14 +344,6 @@ a.lightbox:hover{
 }
 
 
-
-
-
-
-
-
-
-
 /*Contact page*/
 .contact{
     background: url(/img/contact_cover.jpg) no-repeat center center fixed; 
@@ -376,7 +365,7 @@ a.lightbox:hover{
             padding: 2em 4em 4em 4em;
             width: 80%;
             max-width: 700px;
-            min-width: 400px;
+            min-width: 300px;
             margin: auto;
 /*            box-shadow: 0 0 10px #bbbbbb;  */
 
@@ -500,6 +489,9 @@ a#icon:hover{
     cursor: pointer;
 }
 
+footer p {
+    color: #B6A78F;
+}
 
 /*Media Queries*/
 /* Mobile: 320px = 20em */
@@ -507,6 +499,9 @@ a#icon:hover{
     and (min-width: 20em)
     and (max-width:42em){ 
 
+    main{
+        margin-top: 9em;
+    }
     nav ul{
         margin: -20px 0 3px 0;
         padding: 5px;
@@ -522,8 +517,9 @@ a#icon:hover{
         padding: 1.5em;
     }
     nav{
-        padding: .8em 0;
+        padding: 1em 0;
     }
+        
         
 /* HOME PAGE STYLING */
         h1.title{
@@ -581,28 +577,36 @@ a#icon:hover{
             display: inline;
         }
 /* CONTACT PAGE STYLING*/
+        form{
+            padding: 2em;
+            margin: auto;
+        }
         form h1{
-            font-size: 2em;
+            font-size: 1.5em;
         }
         
         form h2{
             font-size: .8em;
         }
-        label{
+        p.contact{
             font-size: 1em;
+        }
+        label{
+            font-size: .8em;
         }
         input,
         textarea{
-            font-size: 1em;
+            font-size: .8em;
+            height: 2.5em;
+            
         }
         .row{
             padding: 2px;
         }
         input[type=submit] {
             width: auto;
-            height: 3em;
-            font-size: 1em;
-        }
+            height: 2.5em;
+            font-size: .8em;
 }
 
     
