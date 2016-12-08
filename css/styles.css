@@ -215,7 +215,7 @@ a.body-link:hover{
 }
 h1.title{
     font-size: 13em;
-    margin: 1.5em auto 0 auto;
+    margin: 1em auto 0 auto;
     animation-duration: 3s;
     animation-name: fadeInUp;
     color: white;
@@ -237,10 +237,9 @@ h3.title{
     min-width: 18em;
 }
 a.work-link{
-    font-size: 1em;
     color: white;
     border: 2px solid white;
-    margin: 2em auto;
+    margin: 1.5em auto;
     animation-duration: 3s;
     animation-name: fadeInUp;
     font-family: 'Open Sans Condensed', sans-serif; 
@@ -508,13 +507,6 @@ a#icon:hover{
     and (min-width: 20em)
     and (max-width:42em){ 
 
-  /* Diagnostic Styling. */
-/*
-	body {
-       background: lightgrey;
-	}
-*/
-    
     nav ul{
         margin: -20px 0 3px 0;
         padding: 5px;
@@ -532,6 +524,21 @@ a#icon:hover{
     nav{
         padding: .5em 0;
     }
+        
+/* HOME PAGE STYLING */
+        h1.title{
+            font-size: 5em;
+        }
+        
+         h3.title{
+            font-size: 1.2em;
+             margin: .5em auto .5em auto;
+        }
+        
+        a.work-link{
+            font-size: .8em;
+            padding: 1.5em;
+        }
         
 /* ABOUT PAGE STYLING */
     .profile-pic{
