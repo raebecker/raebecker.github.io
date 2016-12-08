@@ -11,8 +11,8 @@
     box-sizing: border-box;
 }
 
-/* Imagery */
 
+/* Imagery */
 img{
     max-width: 100%;
     
@@ -31,6 +31,7 @@ img{
     margin: 0;
     margin-top: -2em;
 }
+
 
 /* Navigation */ /*Box Shadow on Nav*/
 nav {
@@ -61,6 +62,7 @@ nav ul{
     margin-top: -10px;
 }
 
+
 /*Nav Hover*/
 nav a:link {
     text-transform: uppercase;
@@ -86,6 +88,7 @@ nav a:active{
     background: white;
 }
 
+
 /*Link hover*/
 a:link {
     text-transform: uppercase;
@@ -108,8 +111,8 @@ a:active{
     background: white;
 }
 
-/* Typography */
 
+/* Typography */
 h1{
     color: #68A1A5;
     font-family: 'Playfair Display', serif;
@@ -133,7 +136,7 @@ h3{
     font-weight: 300;
     text-transform: none;
     margin-bottom: 1em;
-    margin: 0 0 2em 0;
+    margin: 0 0 1em 0;
     text-align: center;
 }
 p{
@@ -169,7 +172,6 @@ main{
     margin: auto;
     margin-top: 8em;
 }
-
 body{
     min-width: 20em; 
     line-height: 1.5;
@@ -178,10 +180,9 @@ body{
 article {
     margin: auto;
     margin-top: 8em;
-    width: 70%;
+    width: 80%;
 }
-
-/*Atricle on all pages is 8em, except this page becuse of picture at top. */
+/*Article on all pages is 8em, except this page becuse of picture at top. */
 article.background{
     margin: auto;
 }
@@ -251,6 +252,8 @@ a.work-link:hover{
     background-color: #68A1A5;
     
 }
+
+
 /*animation*/
 @keyframes fadeInUp {
   from {
@@ -275,29 +278,20 @@ a.work-link:hover{
 .homepage{
 /*     margin: 0; background: #fff;*/
 }
-
 header.portfolio{
     width: 80%;
     max-width: 80%;
     margin: auto;
     text-align: center;
 }
-
 a.portfolio{
     padding: 2px;
 }
-
 h1.portfolio{
     margin: auto;
     padding: .5em 0 0 0;
 }
 
-/*
-div .portfolio{
-    border-bottom: 2px solid #B7AA90;
-    border-top: 2px solid #B7AA90;
-}
-*/
 
 /*CSS from Codepen example*/
 .thumbnail {
@@ -320,7 +314,6 @@ div .portfolio{
 	left: 0;
 	background: rgba(255,255,255,.8);
 }
-
 .lightbox img {
 	/** Pad the lightbox image */
 	max-width: 90%;
@@ -328,7 +321,6 @@ div .portfolio{
 	margin-top: 2%;
     box-shadow: 0 0 30px #bbbbbb;  
 }
-
 .lightbox:target {
 	/** Remove default browser outline */
 	outline: none;
@@ -337,7 +329,10 @@ div .portfolio{
 	display: block;
 }
 
+
 /*END OF CODEPEN CODE*/
+
+
 /*fixes hover over thumbnail */
 a.portfolio:hover{
     background: none;
@@ -359,9 +354,8 @@ a.lightbox:hover{
 }
 
 
-
 /*Contact Form*/
-        form{
+form{
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -374,9 +368,8 @@ a.lightbox:hover{
 /*            box-shadow: 0 0 10px #bbbbbb;  */
 
         }
- 
-        input, 
-        textarea{
+input, 
+textarea{
             font-family: 'Open Sans Condensed', sans-serif; 
             color: #82C7C0;
             font-size: 1.3em;
@@ -387,8 +380,7 @@ a.lightbox:hover{
             border: none;
 	        border-bottom: 3px solid rgba(0,0,0,0.05);
         }
-
-        label{
+label{
             display: flex;
             align-items: center;
             color: #82C7C0;
@@ -396,13 +388,13 @@ a.lightbox:hover{
             font-size: 1.3em;
 
         }
-        form h1{
+form h1{
             font-size: 3em;
             margin-bottom: 0;
             text-align: center;
 
         }
-        form h2{
+form h2{
             border-bottom: 1px solid rgba(0,0,0, 0.3);
             padding: .2em 0 .5em 0;
 
@@ -415,7 +407,7 @@ p.contact{
     font-size: 1.5em;
 
 }
-        input[type=submit]{
+input[type=submit]{
             color: #82C7C0;
             max-width: 6em;
             height: 4em;
@@ -425,29 +417,27 @@ p.contact{
 /*  Send should be centered but padding auto doesnt work. how else should i center the text. 
             WHEN YOU CLICK OFF TYPE IS WHITE< CANT SEE IT*/
         }
-        input:focus,
-        textarea:focus{
+input:focus,
+textarea:focus{
             transition: background .5s;
             color: #68A1A5;
             border-bottom: 5px solid #68A1A5;
             
 /*  color of text when typing*/
 }
-
 input.col[type=submit]{
     background-color:rgba(255,255,255,.5);
     border: 2px solid #82C7C0;
 }
-
 input.col[type=submit]:hover{
     background:#68A1A5;
     color: white;
     border: white;
 }
-
 ::-webkit-input-placeholder {
    color: #B6A78F;
 }
+
 
 /*attempt at rows and columns*/
 .row{
@@ -457,24 +447,36 @@ input.col[type=submit]:hover{
   padding: 5px;
 }
 
+
 /*Flexbox Styling  */
 .row {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 .col{
   flex: 1 200px;
-  
+    align-content: center;
+    width: 40em;
+    max-width: 40em;
 }
 
-/*cover Photo*/
+.small{
+    min-width: 21.8em;
+}
+
+.min{
+    min-width: 25em;
+}
+
+
+/* Cover Photo */
 contact.html{
   background:url(/img/contact_cover.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    
     margin-top: 96px;
 }
 
@@ -493,21 +495,21 @@ div.footer{
 a#icon{
     padding: .8em;
 }
-
 a#icon:hover{
     background: none;
     cursor: pointer;
 }
-
 footer p {
     color: #B6A78F;
 }
+
 
 /*Media Queries*/
 /* Mobile: 320px = 20em */
 @media only screen 
     and (min-width: 20em)
     and (max-width:42em){ 
+        
 
     main{
         margin-top: 9em;
@@ -535,22 +537,20 @@ footer p {
         h1.title{
             font-size: 5em;
         }
-        
-         h3.title{
+        h3.title{
             font-size: 1.2em;
              margin: .5em auto .5em auto;
         }
-        
         a.work-link{
             font-size: .8em;
             padding: 1.5em;
         }
         
+        
 /* ABOUT PAGE STYLING */
-    .profile-pic{
+        .profile-pic{
         margin-top: 0;     
     }
-        
         h1{
             font-size: 1.8em;
             text-align: center;
@@ -561,7 +561,6 @@ footer p {
             font-size: 1.5em;
             padding-top: .8em;
         }
-        
         h3{
             font-size: 1.5em;
             margin: 5px 0 5px 0;
@@ -582,10 +581,11 @@ footer p {
         ul{
             margin: 0;
         }
-
         div{
             display: inline;
         }
+        
+        
 /* CONTACT PAGE STYLING*/
         form{
             padding: 2em;
@@ -594,7 +594,6 @@ footer p {
         form h1{
             font-size: 1.5em;
         }
-        
         form h2{
             font-size: .8em;
         }
@@ -618,28 +617,27 @@ footer p {
             height: 2.5em;
             font-size: .8em;
 }
-
-    
 	
 
-/* Tablet:  768px = 160em */
-@media only screen and (min-width: 48em)  {
+/* Tablet:  768px = 48em */
+@media only screen 
+    and (min-width: 48em)
+    and (max-width:64em){ 
 
-/*
-  body {
-      background: green;
-  }
-*/
+      body{
+          background: yellow;
+      }
 }
 
 /* Desktop: 1280px = 80em */
-@media only screen and (min-width: 80em) { 
-  
-/*
-  body {
-     background: blue;
-  }
-*/
+@media only screen 
+    and (min-width: 80em)
+    and (max-width:100em){ 
+        
+        body{
+            background: blue;
+        }
+        }
     
     
 
